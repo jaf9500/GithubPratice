@@ -33,9 +33,6 @@ else if (Bro.equalsIgnoreCase("firefox")) {
 	WebDriverManager.firefoxdriver().setup();
 	wd = new FirefoxDriver();
 	}
-else if (Bro.equalsIgnoreCase("edge")) {
-	WebDriverManager.edgedriver().setup();
-	wd=new EdgeDriver();}
 
 
 wd.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
